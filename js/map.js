@@ -109,6 +109,12 @@ require([
 		title: '{name}',
 		description: 'Daten dieser Site <a href="access.php">anzeigen</a>',
 	});
+	
+	 var measurement = new Measurement({
+          map: map
+        }, dom.byId("measurementDiv"));
+      measurement.startup();
+     });
 		
 	lutherbog_elevation = new ArcGISDynamicMapServiceLayer("http://geo-arcgis.uni-muenster.de:6080/arcgis/rest/services/LutherBog/lutherbog_elevation/MapServer", {});
         map.addLayer(lutherbog_elevation);
