@@ -3,6 +3,9 @@ var lutherbog_elevation, lutherbog_ortho_tiles, flooded_area, part_flooded;
 
 require([
 	'esri/map',
+	'esri/config',
+	'esri/SnappingManager',
+	'esri/dijit/Measurement',	
 	
 	'esri/layers/ArcGISDynamicMapServiceLayer',
         'esri/layers/ImageParameters',

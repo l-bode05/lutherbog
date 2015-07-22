@@ -33,10 +33,10 @@ include 'process/granted.php';
 				</form>
 			</div>
                         
-                        <div id="switch">
+            <div id="switch">
 				<ul>
 					<li id="plotten"><h1>Daten Plotten</h1></li>
-					<li id="changeuser"><h1>anderes</h1></li>
+					<li id="changeuser"><h1>weiteres</h1></li>
 				</ul>
 			</div>
 			
